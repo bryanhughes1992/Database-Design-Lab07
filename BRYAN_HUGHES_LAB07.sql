@@ -4,10 +4,10 @@
 -- and one column each with the data type date, time, and decimal.
 
 CREATE TABLE labSeven (
-	id INTEGER PRIMARY KEY AUTO_INCREMENT,
+	id INT PRIMARY KEY AUTO_INCREMENT,
 	date_values DATE,
 	time_values TIME,
-	decimal_values DECIMAL(4,2)
+	decimal_values DECIMAL(6,2)
 );
 
 -- TASK #2: 
